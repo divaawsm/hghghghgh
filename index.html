@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Gelombang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulasi Gelombang</h1>
+        <canvas id="waveCanvas" width="800" height="400"></canvas>
+        <div class="controls">
+            <label for="wavelength">Panjang Gelombang:</label>
+            <input type="number" id="wavelength" value="50" min="10" max="100">
+            <label for="amplitude">Amplitudo:</label>
+            <input type="number" id="amplitude" value="20" min="1" max="100"> 
+            <button id="update">Perbarui</button>
+        </div>
+        <div class="tabs">
+            <button id="transverse">Gelombang Transversal</button>
+            <button id="longitudinal">Gelombang Longitudinal</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

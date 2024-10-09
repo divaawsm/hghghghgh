@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+canvas {
+    border: 1px solid #000;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.tabs {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+}
